@@ -1,6 +1,6 @@
-package axeo.kata.cardGame.service;
+package atexo.kata.cardGame.service;
 
-import axeo.kata.cardGame.model.Card;
+import atexo.kata.cardGame.model.Card;
 
 import java.util.Comparator;
 

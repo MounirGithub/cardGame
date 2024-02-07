@@ -1,9 +1,9 @@
-package axeo.kata.cardGame.controller;
+package atexo.kata.cardGame.controller;
 
-import axeo.kata.cardGame.model.Card;
-import axeo.kata.cardGame.model.Player;
-import axeo.kata.cardGame.service.CardGeneratorService;
-import axeo.kata.cardGame.service.SortCardsService;
+import atexo.kata.cardGame.model.Card;
+import atexo.kata.cardGame.model.Player;
+import atexo.kata.cardGame.service.CardGeneratorService;
+import atexo.kata.cardGame.service.SortCardsService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;

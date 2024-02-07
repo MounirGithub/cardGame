@@ -1,4 +1,4 @@
-package axeo.kata.cardGame.model;
+package atexo.kata.cardGame.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

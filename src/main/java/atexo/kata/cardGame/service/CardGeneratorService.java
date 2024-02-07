@@ -1,7 +1,7 @@
-package axeo.kata.cardGame.service;
+package atexo.kata.cardGame.service;
 
-import axeo.kata.cardGame.model.Card;
-import axeo.kata.cardGame.model.Player;
+import atexo.kata.cardGame.model.Card;
+import atexo.kata.cardGame.model.Player;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
