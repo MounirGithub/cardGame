@@ -21,7 +21,7 @@ L'application sera exécutée sur `http://localhost:8080`.
 
 Pour générer des cartes pour un joueur, envoyez une requête GET à l'endpoint `/generate`. L'application générera 10 cartes pour le joueur et renverra le résultat au format JSON.
 
-Exemple de requête :
+requête :
 
 ```bash
 curl http://localhost:8080/generate
@@ -30,6 +30,14 @@ curl http://localhost:8080/generate
 ### Tri des cartes
 Pour trier les cartes générées, envoyez une requête GET à l'endpoint /sort avec le json recu précedemment par exemple. L'application triera les cartes selon l'ordre des symboles et des valeurs, puis renverra le résultat trié au format JSON.
 
+Voici l'ordre de trie :
+
+--> Carreaux, Coeur, Pique, Trèfle
+
+--> As, 5, 10, 8, 6, 7, 4, 2, 3, 9, Dame, Roi, Valet
+
+
+requête :
 ```bash
 curl http://localhost:8080/sort
  ```
