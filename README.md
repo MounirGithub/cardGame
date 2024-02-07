@@ -35,3 +35,4 @@ curl http://localhost:8080/sort
  ```
 
 Ce projet a été développé en utilisant la méthode de développement piloté par les tests (TDD).
+Ceci est une v1 et sera ameliorer bientot pour gérer toutes les exceptions.
