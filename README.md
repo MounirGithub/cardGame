@@ -6,6 +6,8 @@ Cette application Spring Boot fournit une api pour générer des cartes pour un 
 
 Assurez-vous d'avoir Java et Maven installés sur votre machine.
 
+Postman pour envoyer des requêtes.
+
 ## Installation et exécution
 
 **Compilez et exécutez l'application à l'aide de Maven :**
@@ -44,3 +46,5 @@ curl http://localhost:8080/sort
 
 Ce projet a été développé en utilisant la méthode de développement piloté par les tests (TDD).
 Ceci est une v1 et sera ameliorer bientot pour gérer toutes les exceptions.
+
+Actuellement l'app ne contient pas d'écran, ça fera partie des prochains développements.
